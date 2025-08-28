@@ -77,8 +77,12 @@
 ### **3. 소프트웨어 설계 표준 (SDS)**
 #### **3.1 아키텍처 설계**
 #### **모듈 구조**:
-'BMP_Processor
-|  
+'BBMMPP__PPrroocceessssoorr ├├──── FFiillee__HHaannddlleerr
+││ ├├──── IInnppuutt__VVaalliiddaattoorr
+││ └└──── OOuuttppuutt__GGeenneerraattoorr
+├├──── IImmaaggee__PPrroocceessssoorr ││ ├├──── CCoolloorr__CCoonnvveerrtteerr
+││ └└──── MMeemmoorryy__MMaannaaggeerr
+└└──── EErrrroorr__HHaannddlleerr'
 
 
 *이탤릭체* 또는 _이탤릭체_
