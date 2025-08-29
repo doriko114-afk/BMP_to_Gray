@@ -39,7 +39,8 @@
 ### C 코드 로직
 ```c
 // MEM 파일에 그레이스케일 데이터를 16진수로 쓰기
-for (int i = 0; i < IMAGE_WIDTH * IMAGE_HEIGHT; i++) {
+for (int i = 0; i < IMAGE_WIDTH * IMAGE_HEIGHT; i++)
+{
     fprintf(memOutFile, "%02X\n", grayscaleData[i]);
 }
 ```
